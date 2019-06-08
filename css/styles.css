@@ -8,11 +8,20 @@ h1 {
 .jumbotron p {
   margin-top: 30px;
 }
-img {
+
+
+.jumbotron img {
   height: 300px;
   width: auto;
   margin: 20px;
   border-radius: 10px;
+}
+
+footer {
+  font-style: italic;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 100px;
 }
 .panel-body {
   background-color: #eee;
@@ -27,4 +36,47 @@ img {
 
 .Q1, .Q2, .Q3, .Q4, .Q5 {
   display: none;
+}
+
+.Italian{
+  display: none;
+}
+.Italian img{
+  float: left;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.Asian {
+  display: none;
+}
+
+.Asian img{
+  float: left;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.American {
+  display: none;
+}
+
+.American img{
+  float: left;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.Other {
+  display: none;
+}
+
+.Other img{
+  float: left;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
