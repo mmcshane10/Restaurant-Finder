@@ -15,6 +15,7 @@ h1 {
   width: auto;
   margin: 20px;
   border-radius: 10px;
+  float: inherit;
 }
 
 footer {
@@ -38,9 +39,13 @@ footer {
   display: none;
 }
 
+.start {
+  text-align: center;
+}
 .Italian{
   display: none;
 }
+
 .Italian img{
   float: left;
   height: 200px;

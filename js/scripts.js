@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  var result;
+
+var result;
 
   $(".start").click(function() {
     $(".Q1").show();
@@ -33,6 +34,7 @@ $(document).ready(function() {
   $("form#restaurant").submit(function(event) {
     event.preventDefault();
 
+
     var food = $("input:radio[name=type]:checked").val();
 
     if (food === "Italian") {
@@ -47,8 +49,7 @@ $(document).ready(function() {
 
     $(".btn5").hide();
     $(".Q5").hide();
-    $(".suggestions").append(result);
-    $(".suggestions").show();
+    $(result).show();
     console.log();
 
     });
