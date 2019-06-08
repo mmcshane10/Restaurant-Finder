@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-var result;
-
   $(".start").click(function() {
     $(".Q1").show();
     $(".start").hide();
@@ -34,18 +32,27 @@ var result;
   $("form#restaurant").submit(function(event) {
     event.preventDefault();
 
+    var result = $("input:radio[name=food]:checked").val();
 
-    var food = $("input:radio[name=type]:checked").val();
-
-    if (food === "Italian") {
-      result = ".Italian"
-    } else if (food === "Asian") {
-      result = ".Asian"
-    } else if (food === "American") {
-      result = ".American"
-    } else if (food === "Other") {
-      result = ".Other"
+    if (result === "Italian") {
+      $(".Italian").show()
+    } else if (result === "Asian") {
+      $(".Asian").show()
+    } else if (result === "#American") {
+      $(".Italian").show()
+    } else if (result === "Other") {
+      $(".Other").show()
     }
+
+   //  if (food === "Italian") {
+   //   result = ".Italian"
+   // } else if (food === "Asian") {
+   //   result = ".Asian"
+   // } else if (food === "American") {
+   //   result = ".American"
+   // } else if (food === "Other") {
+   //   result = ".Other"
+
 
     $(".btn5").hide();
     $(".Q5").hide();
