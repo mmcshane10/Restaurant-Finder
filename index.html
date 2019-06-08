@@ -14,87 +14,176 @@
 </head>
 <body>
   <div class="container">
-    <h1>Portland Restaurant Finder</h1>
-    <p>Hungry? Not sure where to go out tonight? Answer the below questions and let us help you discover some of the Rose City's finest eating destinations!</p>
-
-    <form id="restaurantquestions">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h2>What type of food are you looking for?</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="type" value="Yes">
-              Italian
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="type" value="No">
-              Japanese
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="type" value="Yes">
-              American
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="type" value="Yes">
-              Other
-            </label>
-          </div>
-        </div>
-      </div>
-
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h2>What part of town are you in?</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="location" value="Yes">
-              West Side
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="location" value="No">
-              East Side
-            </label>
-          </div>
-        </div>
-      </div>
-
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h2>What is your budget?</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="budget" value="Yes">
-              $
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="budget" value="No">
-              $$
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="budget" value="Yes">
-              $$$
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="budget" value="Yes">
-              $$$$
-            </label>
-          </div>
-        </div>
-      </div>
-
+    <div class="jumbotron">
+      <h1>Portland Restaurant Finder</h1>
+      <img src="img/banner.jpg" class="center-block" alt="banner image">
+      <p>Hungry? Not sure where to go out tonight? Answer the below questions and let us help you discover some of the Rose City's finest eating destinations!</p>
     </div>
-  </body>
+    <div class="start">
+      <button type="button" class="btn btn-success">Begin the Questionnaire!</button>
+    </div>
+    <form id="restaurantquestions">
+      <div class="Q1">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>What type of food are you looking for?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="type" value="Yes">
+                Italian
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="type" value="No">
+                Japanese
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="type" value="Yes">
+                American
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="type" value="Yes">
+                Other
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="btn1">
+          <button type="button" class="btn btn-success">Next</button>
+        </div>
+      </div>
+
+      <div class="Q2">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>What part of town are you in?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="location" value="Yes">
+                West Side
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="location" value="No">
+                East Side
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="btn2">
+          <button type="button" class="btn btn-success">Next</button>
+        </div>
+      </div>
+
+      <div class="Q3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>What is your budget?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="budget" value="Yes">
+                $
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="budget" value="No">
+                $$
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="budget" value="Yes">
+                $$$
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="budget" value="Yes">
+                $$$$
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="btn3">
+          <button type="button" class="btn btn-success">Next</button>
+        </div>
+      </div>
+
+      <div class="Q4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>What kind of atmosphere are you looking for?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="atmosphere" value="Yes">
+                Casual
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="atmosphere" value="No">
+                Upscale
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="atmosphere" value="Yes">
+                Hip
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="atmosphere" value="Yes">
+                No preference
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="btn4">
+          <button type="button" class="btn btn-success">Next</button>
+        </div>
+      </div>
+
+      <div class="Q5">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>How many people are in your party?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="Yes">
+                Just me
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="No">
+                Two
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="Yes">
+                Three to four
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="Yes">
+                Five or more
+              </label>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-success">See My Suggestions!</button>
+      </div>
+    </form>
+
+  </div>
+</body>

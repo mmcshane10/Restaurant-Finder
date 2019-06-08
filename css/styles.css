@@ -1,3 +1,30 @@
 h1 {
   text-align: center;
 }
+
+.jumbotron {
+  height: 580px;
+}
+.jumbotron p {
+  margin-top: 30px;
+}
+img {
+  height: 300px;
+  width: auto;
+  margin: 20px;
+  border-radius: 10px;
+}
+.panel-body {
+  background-color: #eee;
+  border: solid 2px black;
+  border-radius: 5px;
+  height: 220px;
+}
+
+.panel-body h2 {
+  margin-bottom: 20px;
+}
+
+.Q1, .Q2, .Q3, .Q4, .Q5 {
+  display: none;
+}
