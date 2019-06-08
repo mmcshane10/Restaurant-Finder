@@ -3,7 +3,7 @@ h1 {
 }
 
 .jumbotron {
-  height: 580px;
+  height: auto;
 }
 .jumbotron p {
   margin-top: 30px;

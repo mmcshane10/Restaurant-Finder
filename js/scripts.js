@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  var result;
 
   $(".start").click(function() {
     $(".Q1").show();
@@ -29,24 +30,26 @@ $(document).ready(function() {
     $(".Q4").fadeOut();
   });
 
-  $(".btn5").click(function() {
-    $(".btn5").hide();
-    $(".Q5").hide();
-    $(result).show();
+  $("form#restaurant").submit(function(event) {
+    event.preventDefault();
 
-    var type = $("input:radio[name=type]:checked").val();
-    var result;
+    var food = $("input:radio[name=type]:checked").val();
 
-    if (type === "Italian") {
+    if (food === "Italian") {
       result = ".Italian"
-    } else if (type === "Asian") {
+    } else if (food === "Asian") {
       result = ".Asian"
-    } else if (type === "American") {
+    } else if (food === "American") {
       result = ".American"
-    } else if (type === "Other") {
+    } else if (food === "Other") {
       result = ".Other"
     }
 
+    $(".btn5").hide();
+    $(".Q5").hide();
+    $(".suggestions").append(result);
+    $(".suggestions").show();
     console.log();
+
+    });
   });
-});
