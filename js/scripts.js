@@ -46,23 +46,9 @@ var result
       result = $(".Other").show()
     }
 
-   //  if (food === "Italian") {
-   //   result = "test"
-   // } else if (food === "Asian") {
-   //   result = ".Asian"
-   // } else if (food === "American") {
-   //   result = ".American"
-   // } else if (food === "Other") {
-   //   result = ".Other"
-   // }
-
     $(".btn5").hide();
     $(".Q5").hide();
 
     $("#output").text(result);
-    // $(result).show();
-    console.log();
-
-
   });
 });
