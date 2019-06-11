@@ -41,7 +41,7 @@ var result
     } else if (food === "Asian") {
       result = $(".Asian").show()
     } else if (food === "American") {
-      result = $(".Italian").show()
+      result = $(".American").show()
     } else if (food === "Other") {
       result = $(".Other").show()
     }
