@@ -14,7 +14,7 @@
 
 ## Known Bugs
 
-* There is an issue getting the results of the questionnaire to populate on the page after submitting answers.
+* No known bugs.
 
 ## Support and contact details
 
